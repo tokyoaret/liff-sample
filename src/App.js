@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useLiff from './hooks/useLiff';
 
-const liffId = process.env.REACT_APP_LIFF_ID;
+const liffId = 'aaaa';
 
 function App() {
   const { loading, error, profile, fetchProfile, sendMessage } = useLiff({
